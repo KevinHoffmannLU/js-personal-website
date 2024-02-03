@@ -19,6 +19,15 @@ body {
     overflow-x: hidden;
 }
 
+.divider {
+    width: 98%;
+    height: 1px;
+    background-color: var(--outline-color);
+    margin: 2rem auto;
+    border-radius: 7px;
+    border: 1px solid rgba(31, 31, 31, 0.1);
+}
+
 .hero {
     display: flex;
     justify-content: center;
