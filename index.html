@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:xxxx@xxxxxxxxxxxxxxxx" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-theme="light-mode">
     <nav class="nav">
         <div class="nav-links">
             <div class="nav-link nav-github">
@@ -19,9 +20,14 @@
                 </a>
             </div>
         </div>
-        <div class="theme-switch-container">
-            <label class="theme-switch" for="theme-switch">
-                <input type="checkbox" id="theme-switch" />
+        <!-- Dark Mode Switch -->
+        <div class="theme-switch-wrapper">
+            <span id="toggle-icon">
+                <span class="toggle-text">Light Mode</span>
+                <i class="fas fa-sun"></i>
+            </span>
+            <label class="theme-switch">
+                <input type="checkbox">
                 <div class="slider round"></div>
             </label>
         </div>
