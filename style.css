@@ -10,6 +10,7 @@
     --primary-color: #245B47;
     --secondary-color: #224942;
     --tertiary-color: #0D3A32;
+    --outline-color: #1f1f1f;
 }
 
 body {
@@ -51,6 +52,7 @@ body {
     height: 15rem;
     object-fit: cover;
     border-radius: 999px;
+    border: 2px solid var(--outline-color);
 }
 
 .nav {
@@ -61,6 +63,7 @@ body {
     width: 100%;
     background-color: var(--secondary-color);
     position: relative;
+    border-bottom: 2px solid var(--outline-color);
 }
 
 .nav-links {
