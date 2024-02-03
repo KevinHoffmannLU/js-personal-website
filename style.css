@@ -1,0 +1,61 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --background-color: #192A3C;
+    --lighter-color: #223546;
+    --primary-color: #245B47;
+    --secondary-color: #224942;
+    --tertiary-color: #0D3A32;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+}
+/* 
+h1 {
+    color: white;
+    padding: 2rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 7px;
+    background-color: var(--lighter-color);
+} */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 2rem auto;
+    gap: 2rem;
+}
+
+.hero-text-box {
+    color: white;
+    padding: 2rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 7px;
+    background-color: var(--lighter-color);
+    height: auto;
+    width: 100%;
+}
+
+.hero-greeting {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.hero-text {
+    margin-top: 1em;
+}
+
+.hero-img img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 999px;
+}
